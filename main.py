@@ -2,7 +2,7 @@ import random as rd
 #數字炸彈基礎版:)
 def nbo1():
     rdnum = rd.randint(1,11)
-    print("歡迎遊玩\"數字炸彈\":)")
+    print("歡迎遊玩\"數字炸彈\"::)")
     usernum = int(input("請猜猜一個1~10之間的整數:"))
     if rdnum == usernum:
         print("系統數字為",rdnum,"您輸入的是",usernum,"數字匹配,恭喜獲勝")
